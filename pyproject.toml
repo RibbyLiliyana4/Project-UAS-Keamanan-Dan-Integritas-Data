@@ -1,0 +1,15 @@
+[project]
+name = "kid-uas"
+version = "0.1.0"
+description = "Skeleton project untuk simulasi security server"
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "cryptography>=46.0.3",
+    "fastapi==0.104.1",
+    "pydantic==2.5.0",
+    "python-dotenv==1.0.0",
+    "python-multipart>=0.0.20",
+    "requests>=2.32.5",
+    "uvicorn==0.24.0",
+]
